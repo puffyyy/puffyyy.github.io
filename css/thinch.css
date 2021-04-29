@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "thinch";
+  src: url("../font/fontch.ttf") format("truetype");
+  /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+
+.thinch {
+  font-family: "thinch" !important;
+  font-size: 30px;
+  /* font-weight: bold; */
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

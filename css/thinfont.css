@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "thinfont";
+  src: url("../font/font1.ttf") format("truetype");
+  /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+
+.thinfont {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  /* font-weight: bold; */
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
