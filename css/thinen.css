@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "thinen";
+  src: url("../font/Yelly.ttf") format("truetype");
+  /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+
+.thinen {
+  font-family: "thinen" !important;
+  font-size: 25px;
+  /* font-weight: bold; */
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
