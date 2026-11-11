@@ -76,7 +76,7 @@ const visitorSection = visitorMap.scriptUrl ? `<section id="visitors" class="sec
 
 const html = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Donglin Yang - Homepage</title>
-<meta name="description" content="Donglin Yang's personal homepage.">
+<meta name="description" content="Donglin Yang's academic homepage at BUAA, focusing on embodied intelligence.">
 <meta name="theme-color" content="#ffffff"><meta property="og:type" content="profile"><meta property="og:title" content="Donglin Yang - Homepage"><meta property="og:description" content="Donglin Yang's personal homepage.">
 <link rel="canonical" href="${escape(siteUrl.href)}"><meta property="og:url" content="${escape(siteUrl.href)}">
 <link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
