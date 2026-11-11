@@ -17,7 +17,7 @@
   },
   "rain": {
     "title": "Realistic Rainy Weather Simulation for LiDARs in CARLA Simulator",
-    "bib": "@inproceedings{yang2024rain,\n  title = {{Realistic Rainy Weather Simulation for LiDARs in CARLA Simulator}},\n  author = {Yang, Donglin and Cai, Xinyu and Liu, Zhenfeng and Jiang, Wentao and Zhang, Bo and Yan, Guohang and Gao, Xing and Liu, Si and Shi, Botian},\n  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems},\n  year = {2024},\n  url = {https://colalab.net/media/paper/Realistic_Rainy_Weather_Simulation_for_LiDARs_in_CARLA_Simulator.pdf}\n}"
+    "bib": "@inproceedings{yang2024rain,\n  title = {{Realistic Rainy Weather Simulation for LiDARs in CARLA Simulator}},\n  author = {Yang, Donglin and Cai, Xinyu and Liu, Zhenfeng and Jiang, Wentao and Zhang, Bo and Yan, Guohang and Gao, Xing and Liu, Si and Shi, Botian},\n  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems},\n  year = {2024},\n  url = {https://arxiv.org/abs/2312.12772}\n}"
   },
   "resimad": {
     "title": "ReSimAD: Zero-Shot 3D Domain Transfer for Autonomous Driving with Source Reconstruction and Target Simulation",

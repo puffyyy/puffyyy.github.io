@@ -95,11 +95,11 @@
     "type": "conference",
     "category": "simulation",
     "summary": "Physics-based rain and vehicle spray simulation, paired with LiDAR intensity prediction, generates synthetic data for more robust autonomous driving perception.",
-    "paper": "https://colalab.net/media/paper/Realistic_Rainy_Weather_Simulation_for_LiDARs_in_CARLA_Simulator.pdf",
+    "paper": "https://arxiv.org/abs/2312.12772",
     "project": null,
     "code": "https://github.com/PJLab-ADG/PCSim#rainypcsim",
     "arxiv": "2312.12772",
-    "sources": ["https://colalab.net/media/paper/Realistic_Rainy_Weather_Simulation_for_LiDARs_in_CARLA_Simulator.pdf", "https://ieeexplore.ieee.org/document/10802036", "https://github.com/PJLab-ADG/PCSim#rainypcsim"],
+    "sources": ["https://arxiv.org/abs/2312.12772", "https://ieeexplore.ieee.org/document/10802036", "https://github.com/PJLab-ADG/PCSim#rainypcsim"],
     "image": {
       "src": "rainy-lidar.webp",
       "alt": "Rain and vehicle spray simulation for LiDAR point clouds"

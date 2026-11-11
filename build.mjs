@@ -52,7 +52,7 @@ const publicationRows = papers.map(p=>`<article class="publication" data-categor
 </article>`).join('\n');
 
 const news = [
-  ["2026-08", "<a href=\"#panovla\">PanoVLA</a> preprint was released on arXiv, exploring panorama-aware mobile manipulation with whole-body teleoperation."],
+  ["2026-08", "<a href=\"#panovla\">PanoVLA</a> preprint was released on arXiv."],
   ["2026-01", "Received the <b>Second Place Award (2/62)</b> in the <a href=\"#awards\">RoCo Challenge @ AAAI 2026</a>."],
   ["2026-01", "<a href=\"#genie\">Genie Envisioner</a> was accepted to <b>ICLR 2026</b>."],
   ["2025-09", "<a href=\"#uavflow\">UAV-Flow Colosseo</a> was accepted to <b>NeurIPS 2025</b> (Datasets and Benchmarks Track)."],
@@ -97,8 +97,8 @@ ${newsRows}
 </ul></section>
 <section id="publications" class="section" aria-labelledby="publications-title">${heading("publications", "📝", "Selected Publications")}<div class="publication-tools"><div class="filters" role="group" aria-label="Filter publications by research topic" hidden><button class="filter" data-filter="all" aria-pressed="true">All research</button><button class="filter" data-filter="robotics" aria-pressed="false">Robotics</button><button class="filter" data-filter="uav" aria-pressed="false">UAVs</button><button class="filter" data-filter="simulation" aria-pressed="false">Simulation</button></div><span class="contribution-note">* Equal contribution</span></div><p class="results-status sr-only" role="status" aria-live="polite" hidden>Showing all ${papers.length} publications</p><div class="publications-list">${publicationRows}</div></section>
 <section id="awards" class="section" aria-labelledby="awards-title">${heading("awards", "🎖", "Honors and Awards")}<ul class="awards-list"><li>Second Place Award (2/62), <strong>RoCo Challenge @ AAAI 2026: Robotic Collaborative Assembling for Human-Centered Manufacturing</strong></li><li>Third Place, <strong>2026 World Humanoid Robot Games — Scenario-Based Events: Combined Five-Task Event</strong></li></ul></section>
-<section id="education" class="section" aria-labelledby="education-title">${heading("education", "📖", "Education")}<div class="education-row"><div><h3>Beihang University</h3><p>Ph.D. Student · Advised by Prof. Ke Xu and Prof. Si Liu</p></div><span class="education-period">Present</span></div></section>
-<section id="contact" class="section" aria-labelledby="contact-title">${heading("contact", "✉️", "Contact")}<p>Always happy to exchange ideas on embodied intelligence and robotics.</p><p><a class="contact-link" href="mailto:yangdonglin@buaa.edu.cn">yangdonglin@buaa.edu.cn</a></p></section>
+<section id="education" class="section" aria-labelledby="education-title">${heading("education", "📖", "Education")}<div class="education-row"><div><h3>Beihang University</h3><p>Ph.D. Student</p></div><span class="education-period">Present</span></div></section>
+<section id="contact" class="section" aria-labelledby="contact-title">${heading("contact", "✉️", "Contact")}<p><a class="contact-link" href="mailto:yangdonglin@buaa.edu.cn">yangdonglin@buaa.edu.cn</a></p></section>
 ${visitorSection}
 </main></div><footer class="container footer"><p>© 2026 Donglin Yang</p><div class="footer-right"><span>Last updated November 2026</span><a href="#about">Back to top ↑</a></div></footer>
 <dialog class="citation-dialog" aria-labelledby="citation-heading"><div class="dialog-heading"><h2 id="citation-heading">Cite this work</h2><button class="dialog-close" aria-label="Close citation">×</button></div><p class="citation-title"></p><pre class="citation-text" tabindex="0"></pre><div class="dialog-actions"><button class="copy-citation">Copy BibTeX</button><a class="download-citation" download>Download .bib ↓</a></div><p class="citation-status" role="status" aria-live="polite"></p></dialog>
