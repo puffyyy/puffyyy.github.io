@@ -48,7 +48,7 @@ const publicationRows = papers.map(p=>`<article class="publication" data-categor
   <p class="authors">${p.authors.map(a=>`${a==='Donglin Yang'?`<strong>${a}</strong>`:escape(a)}${p.equalContribution.includes(a)?'<sup>*</sup>':''}`).join(', ')}</p>
   <p class="paper-meta"><span class="venue">${escape(p.venue)}</span><span class="paper-field">${escape(p.track || topics[p.category])}</span></p>
   <p class="paper-summary">${escape(p.summary)}</p>
-  <div class="paper-links">${ext(p.paper,'Paper','paper')}${p.project?ext(p.project,'Project','arrow'):''}${p.code?ext(p.code,'Code','code'):''}<a class="cite-link" href="citations/${p.id}.bib" data-cite="${p.id}" download>${icon('quote')}BibTeX</a></div></div>
+  <div class="paper-links">${ext(p.paper,'Paper','paper')}${p.project?ext(p.project,'Project','arrow'):''}${p.code?ext(p.code,'Code','code'):''}${p.dataset?ext(p.dataset,'Dataset','arrow'):''}${p.video?ext(p.video,'Video','arrow'):''}<a class="cite-link" href="citations/${p.id}.bib" data-cite="${p.id}" download>${icon('quote')}BibTeX</a></div></div>
 </article>`).join('\n');
 
 const news = [

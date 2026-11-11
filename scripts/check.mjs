@@ -20,7 +20,7 @@ for(const p of papers) {
   assert(citations[p.id].bib.includes(`year = {${p.year}}`));
   assert(citations[p.id].bib.includes(`title = {{${p.title}}}`));
   assert.equal(readFileSync(new URL(`dist/citations/${p.id}.bib`,root),'utf8').trim(),citations[p.id].bib);
-  for(const field of ['paper','project','code']) if(p[field]) assert.equal(new URL(p[field]).protocol,'https:');
+  for(const field of ['paper','project','code','dataset','video']) if(p[field]) assert.equal(new URL(p[field]).protocol,'https:');
 }
 assert(!/TODO|lorem ipsum|placeholder|codex-preview/i.test(html),'No unfinished page content');
 

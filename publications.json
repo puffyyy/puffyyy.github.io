@@ -10,8 +10,10 @@
     "category": "robotics",
     "summary": "A panorama-aware vision-language-action policy and whole-body teleoperation system support spatially grounded, coordinated mobile bimanual manipulation in real-world tasks.",
     "paper": "https://arxiv.org/abs/2608.02257",
-    "project": null,
+    "project": "https://puffyyy.github.io/panovla.github.io/",
     "code": null,
+    "dataset": "https://huggingface.co/datasets/puffyyy/panorama-mobile-manipulation",
+    "video": "https://puffyyy.github.io/panovla.github.io/#experiments",
     "arxiv": "2608.02257",
     "sources": ["https://arxiv.org/abs/2608.02257", "https://arxiv.org/html/2608.02257v1"],
     "image": {
