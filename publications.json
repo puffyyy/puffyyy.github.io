@@ -1,0 +1,128 @@
+[
+  {
+    "id": "panovla",
+    "title": "Learning Panorama-Aware VLA for Mobile Manipulation with Whole-Body Teleoperation",
+    "authors": ["Donglin Yang", "Haoran Chen", "Xingyu Chen", "Lixing Liu", "Manyi Li", "Changhe Tu", "Ke Xu", "Xiaojian Ma", "Si Liu"],
+    "equalContribution": [],
+    "year": 2026,
+    "venue": "arXiv 2026",
+    "type": "preprint",
+    "category": "robotics",
+    "summary": "A panorama-aware vision-language-action policy and whole-body teleoperation system support spatially grounded, coordinated mobile bimanual manipulation in real-world tasks.",
+    "paper": "https://arxiv.org/abs/2608.02257",
+    "project": null,
+    "code": null,
+    "arxiv": "2608.02257",
+    "sources": ["https://arxiv.org/abs/2608.02257", "https://arxiv.org/html/2608.02257v1"],
+    "image": {
+      "src": "panovla.webp",
+      "alt": "Whole-body teleoperation setup for mobile bimanual manipulation"
+    }
+  },
+  {
+    "id": "genie",
+    "title": "Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation",
+    "authors": ["Yue Liao", "Pengfei Zhou", "Siyuan Huang", "Donglin Yang", "Shengcong Chen", "Yuxin Jiang", "Yue Hu", "Jingbin Cai", "Si Liu", "Jianlan Luo", "Liliang Chen", "Shuicheng Yan", "Maoqing Yao", "Guanghui Ren"],
+    "equalContribution": ["Yue Liao", "Pengfei Zhou", "Siyuan Huang"],
+    "year": 2026,
+    "venue": "ICLR 2026",
+    "type": "conference",
+    "category": "robotics",
+    "summary": "A unified video-generative foundation platform connects robotic world modeling and action learning to support instruction-driven manipulation across diverse embodiments.",
+    "paper": "https://arxiv.org/abs/2508.05635",
+    "project": "https://genie-envisioner.github.io/",
+    "code": "https://github.com/AgibotTech/Genie-Envisioner-V1",
+    "arxiv": "2508.05635",
+    "sources": ["https://arxiv.org/abs/2508.05635", "https://openreview.net/pdf/90e39e28b6fa7a15dda5ba3cbff8972ce0618c2d.pdf", "https://github.com/AgibotTech/Genie-Envisioner-V1"],
+    "image": {
+      "src": "genie-envisioner-alpha.webp",
+      "alt": "Genie Envisioner world modeling and robotic manipulation examples"
+    },
+    "booktitle": "International Conference on Learning Representations"
+  },
+  {
+    "id": "uavflow",
+    "title": "UAV-Flow Colosseo: A Real-World Benchmark for Flying-on-a-Word UAV Imitation Learning",
+    "authors": ["Xiangyu Wang", "Donglin Yang", "Yue Liao", "Wenhao Zheng", "Wenjun Wu", "Bin Dai", "Hongsheng Li", "Si Liu"],
+    "equalContribution": ["Xiangyu Wang", "Donglin Yang", "Yue Liao"],
+    "year": 2025,
+    "venue": "NeurIPS 2025",
+    "type": "conference",
+    "category": "uav",
+    "summary": "A real-world benchmark and imitation learning framework enable language-conditioned, fine-grained UAV control through expert demonstrations, simulation evaluation, and real flight deployment.",
+    "paper": "https://arxiv.org/abs/2505.15725",
+    "project": "https://prince687028.github.io/UAV-Flow/",
+    "code": "https://github.com/buaa-colalab/UAV-Flow",
+    "arxiv": "2505.15725",
+    "sources": ["https://proceedings.neurips.cc/paper_files/paper/2025/hash/92cfa104db7fdd053492df3589ddfd49-Abstract-Datasets_and_Benchmarks_Track.html", "https://prince687028.github.io/UAV-Flow/", "https://papers.nips.cc/paper_files/paper/2025/file/92cfa104db7fdd053492df3589ddfd49-Paper-Datasets_and_Benchmarks_Track.pdf"],
+    "image": {
+      "src": "uav-flow.webp",
+      "alt": "UAV-Flow benchmark: flying tasks and real-world demonstration collection"
+    },
+    "booktitle": "Advances in Neural Information Processing Systems, Datasets and Benchmarks Track",
+    "track": "Datasets & Benchmarks"
+  },
+  {
+    "id": "traveluav",
+    "title": "Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology",
+    "authors": ["Xiangyu Wang", "Donglin Yang", "Ziqin Wang", "Hohin Kwan", "Jinyu Chen", "Wenjun Wu", "Hongsheng Li", "Yue Liao", "Si Liu"],
+    "equalContribution": ["Xiangyu Wang", "Donglin Yang", "Ziqin Wang"],
+    "year": 2025,
+    "venue": "ICLR 2025",
+    "type": "conference",
+    "category": "uav",
+    "summary": "A realistic UAV simulation platform, assistant-guided navigation benchmark, and multimodal navigation model connect language instructions with continuous flight trajectories.",
+    "paper": "https://arxiv.org/abs/2410.07087",
+    "project": "https://prince687028.github.io/Travel/",
+    "code": "https://github.com/prince687028/TravelUAV",
+    "arxiv": "2410.07087",
+    "sources": ["https://proceedings.iclr.cc/paper_files/paper/2025/file/15ce8e7afe5ee95bad56e3b9be28d3d1-Paper-Conference.pdf", "https://prince687028.github.io/Travel/", "https://github.com/prince687028/TravelUAV"],
+    "image": {
+      "src": "traveluav.webp",
+      "alt": "TravelUAV simulated environments and vision-language navigation examples"
+    },
+    "booktitle": "International Conference on Learning Representations"
+  },
+  {
+    "id": "rain",
+    "title": "Realistic Rainy Weather Simulation for LiDARs in CARLA Simulator",
+    "authors": ["Donglin Yang", "Xinyu Cai", "Zhenfeng Liu", "Wentao Jiang", "Bo Zhang", "Guohang Yan", "Xing Gao", "Si Liu", "Botian Shi"],
+    "equalContribution": [],
+    "year": 2024,
+    "venue": "IROS 2024",
+    "type": "conference",
+    "category": "simulation",
+    "summary": "Physics-based rain and vehicle spray simulation, paired with LiDAR intensity prediction, generates synthetic data for more robust autonomous driving perception.",
+    "paper": "https://colalab.net/media/paper/Realistic_Rainy_Weather_Simulation_for_LiDARs_in_CARLA_Simulator.pdf",
+    "project": null,
+    "code": "https://github.com/PJLab-ADG/PCSim#rainypcsim",
+    "arxiv": "2312.12772",
+    "sources": ["https://colalab.net/media/paper/Realistic_Rainy_Weather_Simulation_for_LiDARs_in_CARLA_Simulator.pdf", "https://ieeexplore.ieee.org/document/10802036", "https://github.com/PJLab-ADG/PCSim#rainypcsim"],
+    "image": {
+      "src": "rainy-lidar.webp",
+      "alt": "Rain and vehicle spray simulation for LiDAR point clouds"
+    },
+    "booktitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems"
+  },
+  {
+    "id": "resimad",
+    "title": "ReSimAD: Zero-Shot 3D Domain Transfer for Autonomous Driving with Source Reconstruction and Target Simulation",
+    "authors": ["Bo Zhang", "Xinyu Cai", "Jiakang Yuan", "Donglin Yang", "Jianfei Guo", "Xiangchao Yan", "Renqiu Xia", "Botian Shi", "Min Dou", "Tao Chen", "Si Liu", "Junchi Yan", "Yu Qiao"],
+    "equalContribution": ["Bo Zhang", "Xinyu Cai"],
+    "year": 2024,
+    "venue": "ICLR 2024",
+    "type": "conference",
+    "category": "simulation",
+    "summary": "Reconstructing source-domain scenes and simulating target-domain LiDAR observations enables zero-shot 3D domain transfer across autonomous driving datasets and sensor configurations.",
+    "paper": "https://arxiv.org/abs/2309.05527",
+    "project": null,
+    "code": "https://github.com/PJLab-ADG/3DTrans#resimad",
+    "arxiv": "2309.05527",
+    "sources": ["https://arxiv.org/abs/2309.05527", "https://proceedings.iclr.cc/paper_files/paper/2024/file/ffe44976d273c8e5bb4b9ae2ebe746e2-Paper-Conference.pdf", "https://github.com/PJLab-ADG/3DTrans#resimad"],
+    "image": {
+      "src": "resimad-lidarsim.png",
+      "alt": "PCSim driving scene and simulated point clouds from different LiDAR sensor models"
+    },
+    "booktitle": "International Conference on Learning Representations"
+  }
+]

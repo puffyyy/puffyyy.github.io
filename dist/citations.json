@@ -1,0 +1,26 @@
+{
+  "panovla": {
+    "title": "Learning Panorama-Aware VLA for Mobile Manipulation with Whole-Body Teleoperation",
+    "bib": "@article{yang2026panovla,\n  title = {{Learning Panorama-Aware VLA for Mobile Manipulation with Whole-Body Teleoperation}},\n  author = {Yang, Donglin and Chen, Haoran and Chen, Xingyu and Liu, Lixing and Li, Manyi and Tu, Changhe and Xu, Ke and Ma, Xiaojian and Liu, Si},\n  journal = {arXiv preprint arXiv:2608.02257},\n  year = {2026},\n  url = {https://arxiv.org/abs/2608.02257}\n}"
+  },
+  "genie": {
+    "title": "Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation",
+    "bib": "@inproceedings{liao2026genie,\n  title = {{Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation}},\n  author = {Liao, Yue and Zhou, Pengfei and Huang, Siyuan and Yang, Donglin and Chen, Shengcong and Jiang, Yuxin and Hu, Yue and Cai, Jingbin and Liu, Si and Luo, Jianlan and Chen, Liliang and Yan, Shuicheng and Yao, Maoqing and Ren, Guanghui},\n  booktitle = {International Conference on Learning Representations},\n  year = {2026},\n  url = {https://arxiv.org/abs/2508.05635}\n}"
+  },
+  "uavflow": {
+    "title": "UAV-Flow Colosseo: A Real-World Benchmark for Flying-on-a-Word UAV Imitation Learning",
+    "bib": "@inproceedings{wang2025uavflow,\n  title = {{UAV-Flow Colosseo: A Real-World Benchmark for Flying-on-a-Word UAV Imitation Learning}},\n  author = {Wang, Xiangyu and Yang, Donglin and Liao, Yue and Zheng, Wenhao and Wu, Wenjun and Dai, Bin and Li, Hongsheng and Liu, Si},\n  booktitle = {Advances in Neural Information Processing Systems, Datasets and Benchmarks Track},\n  year = {2025},\n  url = {https://arxiv.org/abs/2505.15725}\n}"
+  },
+  "traveluav": {
+    "title": "Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology",
+    "bib": "@inproceedings{wang2025traveluav,\n  title = {{Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology}},\n  author = {Wang, Xiangyu and Yang, Donglin and Wang, Ziqin and Kwan, Hohin and Chen, Jinyu and Wu, Wenjun and Li, Hongsheng and Liao, Yue and Liu, Si},\n  booktitle = {International Conference on Learning Representations},\n  year = {2025},\n  url = {https://arxiv.org/abs/2410.07087}\n}"
+  },
+  "rain": {
+    "title": "Realistic Rainy Weather Simulation for LiDARs in CARLA Simulator",
+    "bib": "@inproceedings{yang2024rain,\n  title = {{Realistic Rainy Weather Simulation for LiDARs in CARLA Simulator}},\n  author = {Yang, Donglin and Cai, Xinyu and Liu, Zhenfeng and Jiang, Wentao and Zhang, Bo and Yan, Guohang and Gao, Xing and Liu, Si and Shi, Botian},\n  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems},\n  year = {2024},\n  url = {https://colalab.net/media/paper/Realistic_Rainy_Weather_Simulation_for_LiDARs_in_CARLA_Simulator.pdf}\n}"
+  },
+  "resimad": {
+    "title": "ReSimAD: Zero-Shot 3D Domain Transfer for Autonomous Driving with Source Reconstruction and Target Simulation",
+    "bib": "@inproceedings{zhang2024resimad,\n  title = {{ReSimAD: Zero-Shot 3D Domain Transfer for Autonomous Driving with Source Reconstruction and Target Simulation}},\n  author = {Zhang, Bo and Cai, Xinyu and Yuan, Jiakang and Yang, Donglin and Guo, Jianfei and Yan, Xiangchao and Xia, Renqiu and Shi, Botian and Dou, Min and Chen, Tao and Liu, Si and Yan, Junchi and Qiao, Yu},\n  booktitle = {International Conference on Learning Representations},\n  year = {2024},\n  url = {https://arxiv.org/abs/2309.05527}\n}"
+  }
+}
