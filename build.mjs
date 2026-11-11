@@ -60,7 +60,7 @@ const news = [
   ["2024-06", "<a href=\"#rain\">Realistic Rainy Weather Simulation for LiDARs in CARLA Simulator</a> was accepted to <b>IROS 2024</b>."],
   ["2024-01", "<a href=\"#resimad\">ReSimAD</a> was accepted to <b>ICLR 2024</b>."],
 ];
-const newsRows = news.map(([date, body]) => `<li class="news-item"><time class="news-date" datetime="${date}">${date.replace('-', '.')}</time><p>${body}</p></li>`).join('\n');
+const newsRows = news.map(([date, body]) => `<li class="news-item"><time class="news-date" datetime="${date}">${date.replace('-', '.')}:</time><span aria-hidden="true">🎉🎉</span> <p>${body}</p></li>`).join('\n');
 const heading = (id, emoji, title) => `<div class="section-heading"><h2 id="${id}-title"><span aria-hidden="true">${emoji}</span> ${title}</h2></div>`;
 
 const visitorMap = JSON.parse(readFileSync(new URL('./visitor-map.json', import.meta.url), 'utf8'));
