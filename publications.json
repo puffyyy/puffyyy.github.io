@@ -122,8 +122,8 @@
     "arxiv": "2309.05527",
     "sources": ["https://arxiv.org/abs/2309.05527", "https://proceedings.iclr.cc/paper_files/paper/2024/file/ffe44976d273c8e5bb4b9ae2ebe746e2-Paper-Conference.pdf", "https://github.com/PJLab-ADG/3DTrans#resimad"],
     "image": {
-      "src": "resimad-lidarsim.png",
-      "alt": "PCSim driving scene and simulated point clouds from different LiDAR sensor models"
+      "src": "resimad-scene.png",
+      "alt": "ReSimAD reconstructed driving scene with roads and vehicles"
     },
     "booktitle": "International Conference on Learning Representations"
   }
