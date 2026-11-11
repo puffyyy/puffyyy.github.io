@@ -104,4 +104,14 @@ ${visitorSection}
 <dialog class="citation-dialog" aria-labelledby="citation-heading"><div class="dialog-heading"><h2 id="citation-heading">Cite this work</h2><button class="dialog-close" aria-label="Close citation">×</button></div><p class="citation-title"></p><pre class="citation-text" tabindex="0"></pre><div class="dialog-actions"><button class="copy-citation">Copy BibTeX</button><a class="download-citation" download>Download .bib ↓</a></div><p class="citation-status" role="status" aria-live="polite"></p></dialog>
 </body></html>`;
 writeFileSync(new URL('index.html',root),html);
+writeFileSync(new URL('sitemap.xml',root), `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>${escape(siteUrl.href)}</loc></url>
+</urlset>
+`);
+writeFileSync(new URL('robots.txt',root), `User-agent: *
+Allow: /
+
+Sitemap: ${new URL('sitemap.xml', siteUrl).href}
+`);
 console.log(`Built homepage with ${papers.length} publications and downloadable citations.`);
