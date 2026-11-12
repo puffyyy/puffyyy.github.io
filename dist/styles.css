@@ -490,19 +490,13 @@ svg {
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: flex-end;
   margin-top: 44px;
   padding-top: 18px;
   padding-bottom: 24px;
   border-top: 1px solid #f2f3f3;
   color: var(--muted);
   font-size: 11px;
-}
-
-.footer-right {
-  display: flex;
-  gap: 22px;
 }
 
 .footer a {
@@ -836,14 +830,8 @@ svg {
   }
 
   .footer {
-    flex-direction: column;
-    gap: 7px;
+    justify-content: flex-start;
     margin-top: 30px;
-  }
-
-  .footer-right {
-    justify-content: space-between;
-    gap: 15px;
   }
 
   .citation-dialog {
