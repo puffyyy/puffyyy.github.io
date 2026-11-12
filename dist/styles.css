@@ -475,12 +475,6 @@ svg {
   font-size: 13px;
 }
 
-.contact-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-}
-
 .visitor-map-content {
   width: 280px;
   max-width: 100%;
