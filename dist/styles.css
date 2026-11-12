@@ -267,16 +267,16 @@ svg {
   margin-right: 3px;
 }
 
-.news-list,.awards-list {
+.news-list,.awards-list,.education-list {
   margin: 0;
   padding-left: 28px;
 }
 
-.awards-list li {
+.awards-list li,.education-list li {
   line-height: 1.6;
 }
 
-.awards-list li+li {
+.awards-list li+li,.education-list li+li {
   margin-top: 8px;
 }
 
@@ -444,35 +444,6 @@ svg {
 .paper-links svg {
   width: 12px;
   height: 12px;
-}
-
-.education-row {
-  position: relative;
-  padding-left: 22px;
-}
-
-.education-row:before {
-  content: "•";
-  position: absolute;
-  left: 7px;
-  top: 1px;
-}
-
-.education-row h3 {
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.education-row p {
-  margin-top: 3px;
-  font-size: 14px;
-}
-
-.education-period {
-  display: inline-block;
-  margin-top: 3px;
-  color: var(--muted);
-  font-size: 13px;
 }
 
 .visitor-map-content {
@@ -768,7 +739,7 @@ svg {
     font-size: 20px;
   }
 
-  .news-list,.awards-list {
+  .news-list,.awards-list,.education-list {
     padding-left: 21px;
     font-size: 14px;
     line-height: 1.6;
